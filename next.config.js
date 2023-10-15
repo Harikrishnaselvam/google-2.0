@@ -2,7 +2,10 @@
 const nextConfig = {
     experimental:{
         appDir:true
-    }
+    },
+    images:{
+        domains:['www.edigitalagency.com.au'],
+    },
 }
 
 module.exports = nextConfig
