@@ -5,10 +5,13 @@ import { useRouter } from 'next/navigation'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {BsFillMicFill} from 'react-icons/bs'
 
+
+
 const HomeSearch = () => {
   const router = useRouter()
   const [input, setInput] = useState("")
   const [randomSearchLoading, setRandomSearchLoading] = useState(false)
+
   function handleSubmit(e){
     e.preventDefault();
     if(!input.trim()){

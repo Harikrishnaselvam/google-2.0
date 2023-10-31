@@ -12,6 +12,7 @@ const Home = () => {
       width={300}
       height={100}
       src="https://www.edigitalagency.com.au/wp-content/uploads/google-logo-png-transparent-background-large-new.png"
+      alt='no internet'
       />
         <HomeSearch/>
      </div>

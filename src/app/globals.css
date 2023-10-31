@@ -5,4 +5,10 @@
     .btn{
         @apply bg-[#f8f9fa] rounded-md text-sm text-gray-800 hover:ring-1 hover:ring-gray-200 focus:outline-none active:ring-gray-300 hover:shadow-md w-36 h-10 transition-shadow;
     }
+    .link{
+        @apply hover:underline cursor-pointer
+    }
+    .header-icon{
+        @apply bg-transparent hover:bg-gray-200 text-4xl p-2 rounded-full cursor-pointer
+    }
 }
