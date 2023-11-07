@@ -5,7 +5,7 @@ import React from 'react'
 
 const WebSearch = async ({searchParams}) => {
   await new Promise((resolve) => setTimeout(resolve,10000))
-  const response = await fetch(`https://wwwb.googleapis.com/customsearch/v1?key=AIzaSyBVeV89nj7sjzf0C_4MIpmitoQ-pFRnAyA&cx=213a996335d21426e&q=${searchParams.searchTerm}`)
+  const response = await fetch(`https://www.googleapis.com/customsearch/v1?key=AIzaSyBVeV89nj7sjzf0C_4MIpmitoQ-pFRnAyA&cx=213a996335d21426e&q=${searchParams.searchTerm}`)
   const data = await response.json();
 
   if(!response.ok){
